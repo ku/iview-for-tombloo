@@ -1,0 +1,140 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>iview for tombloo 0.0.1</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<style>
+body {
+	margin-top: 25px;
+	background: black;
+	color: white;
+}
+
+a {
+	background-color: black;
+	color: white;
+}
+
+li {
+	list-style-type: none;
+}
+
+em {
+	font-weight: bold;
+	font-style: normal;
+	text-decoration: none;
+}
+
+#imagebox {
+	width: 800px;
+	//border: 1px solid white;
+	margin-left: auto;
+	margin-right: auto;
+	//background: white;
+	text-align: center;
+	display: none;
+}
+
+#imageElement {
+	max-width: 800px;
+	max-height: 700px;
+}
+
+
+#imagesources {
+	display: none;
+}
+
+
+
+#imagebox a {
+	color: #444;
+}
+
+#footer {
+	position: fixed;
+	bottom: 0;
+	display: none;
+}
+#sourcename {
+	color: #777;
+	margin: 0.1em;
+	-moz-border-radius: 0.2em;
+	background: black;
+	opacity: 0.6;
+	padding: 10px;
+}
+#sourcename a {
+	text-decoration: none;
+}
+#help {
+	color: #666;
+	-moz-border-radius: 0.2em;
+	background: black;
+	opacity: 0.6;
+	padding: 10px;
+}
+
+#about {
+	position: fixed;
+	bottom: 0;
+	right: 5px;
+	color: #222;
+	font-size: small;
+}
+
+
+#imageno {
+	position: fixed;
+	top: 5px;
+	left: 5px;
+	font-size: x-large;
+	color: #444;
+}
+
+#reblogging {
+	position: absolute;
+	width: 160px;
+	display: none;
+	text-align: center;
+	-moz-border-radius: 0.2em;
+	background: black;
+	opacity: 0.75;
+	font-weight: bold;
+	font-size: large;
+}
+
+#caption {
+	font-size: small;
+}
+
+</style>
+</head>
+<body>
+
+<div id="container">
+	<div id="imagebox">
+		<!--img id="imageElement" src="http://x818.com/nevverimages/092308.jpg" /-->
+		<img id="imageElement" />
+		<p><a id="caption" ></a></p>
+		<div id="reblogging">Reblogging...</div>
+	</div>
+</div>
+
+<div id="imageno"></div>
+
+<div id="imagesources">
+	<h2>Select an image source.</h2>
+	<ul id="imagesourcelist"></ul>
+</div>
+
+<div id="footer">
+	<h3 id="sourcename"></h3>
+	<div id="help">
+		<em>j</em>:next <em>k</em>:previous <em>t</em>:share
+	</div>
+	<div id="about">iview for tombloo 0.0.2(+launch PicLens by <a href="http://collisions.dotimpac.to/">dotimpact</a>)</div>
+	</div>
+</body>
+</html>
+
